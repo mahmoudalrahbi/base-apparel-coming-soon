@@ -8,15 +8,47 @@
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  We're coming soon
+  <div class="container">
+    <div class="left">
+      
+      <div class="containt">
+        <img src="./images/logo.svg" alt="" class="logo">
+        <img src="./images/hero-mobile.jpg" alt="" class="hero-mobile">
+        <div class="mobile-containt">
+        <h1 class="comming-soon">
+          <span class="pink-text">We're </span> </br> 
+          coming </br>
+          soon 
+        </h1>
+
+        <p class="welcome-text">
+          Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+
+        <form class="email-form" id="email-form">
+          <div class="form-group">
+            <button class="submit-email-btn" type="submit">
+              <img src="./images/icon-arrow.svg" alt="">
+            </button>
+
+            <img src="./images/icon-error.svg" alt="" class="error-icon">
+            <input type="email" class="email" placeholder="Email Address" id="email-falid"/>
+            <small>Please provide a valid email</small>
+          </div>
+        </form>
+      </div>
+      </div>
+    </div>
+
+    <div class="right hero-desktop"></div>
+  </div>
+
+  <!-- We're coming soon
 
   Hello fellow shoppers! We're currently building our new fashion store. 
   Add your email below to stay up-to-date with announcements and our launch deals.
@@ -28,6 +60,8 @@
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
+
+  <script src="script.js"></script>
 </body>
 </html>
